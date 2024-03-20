@@ -80,11 +80,11 @@ def update_graph(selected_region):
     # Sales and Quantity Graph
     sales_quantity_fig = go.Figure()
 
-    # Refined sales line (reuse styling for consistency)
-    sales_quantity_fig.add_trace(go.Scatter(x=aggregated_data['date'], y=aggregated_data['sales'],
-                                            name='Sales', mode='lines+markers',
-                                            line=dict(width=3, color='lightpink', dash='dot'), 
-                                            marker=dict(color='lightpink', size=8)))
+    sales_quantity_fig.add_trace(go.Scatter(x=aggregated_data['date'], y=aggregated_data['price'],
+                                        name='Price', mode='lines+markers',
+                                        line=dict(width=3, color='lightgreen', dash='dash'), 
+                                        marker=dict(color='lightgreen', size=8)))
+
 
     # Refined quantity line
     sales_quantity_fig.add_trace(go.Scatter(x=aggregated_data['date'], y=aggregated_data['quantity'],
