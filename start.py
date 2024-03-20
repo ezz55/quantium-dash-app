@@ -5,14 +5,14 @@ from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 
 # Load the sales data
-data_path = 'data\daily_sales_data.csv' 
+data_path = r'data\daily_sales_data.csv' 
 sales_data = pd.read_csv(data_path)
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
 
 app.layout = html.Div(children=[
-    html.H1(children='Sales, Price, and Quantity Data Over Time', style={'textAlign': 'center'}),
+    html.H1(children='Sales, Price, and Quantity Data Over Time', style={'textAlign': 'center', "font-family":"sans-serif"}),
 
     dcc.Graph(id='sales-price-graph'),
     dcc.Graph(id='sales-quantity-graph'),  # Additional graph for sales and quantity
