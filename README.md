@@ -10,11 +10,10 @@ A brief course that gives hands-on data and building dashboards with Dash.
    - Python code was requested to be used for generating a Dash interface where 'X' would represent the date and 'Y' would represent the sales. A CSV file containing sales data was loaded and inspected to understand its structure.
 
 3. **Enhancements to Dash App**:
-   - Upon request, further enhancements were made to the Dash application:
-     - The graph title was modified to include dynamic content based on the selection from the dropdown.
-     - An "All Regions" option was added to the dropdown menu.
-     - A second Y-axis was included in the graph to display price data alongside sales data.
-     - An additional chart was created to display quantity data in a similar manner.
+   - The graph title was modified to include dynamic content based on the selection from the dropdown.
+   - An "All Regions" option was added to the dropdown menu.
+   - A second Y-axis was included in the graph to display price data alongside sales data.
+   - An additional chart was created to display quantity data in a similar manner.
 
 4. **Styling of the Dash App**:
    - Styling for the Dash application was requested to make it visually appealing. Guidance was provided on applying inline CSS styles to various components of the app to adopt a dark-themed interface. This included styling for the header, dropdown menu, and graphs.
